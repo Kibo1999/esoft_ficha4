@@ -1,8 +1,25 @@
+permitir inserir dinheiro na conta:
+	1º O utilizador na janela principal deve clicar no botão "adicionar saldo".
+	2º O sistema abre a janela "AdicionarSaldo"
+	3º O utilizador introduz o valor
+	4º O utilizador clica em "OK"
+	5º O sistema faz a adição do valor.
+
 ver todas as transações:
 	1º Na janela principal, o Utilizador clica no botão "Consultar Transações".
 	2º O Sistema mostra a janela "Lista de Transações" na qual o Sistema lista todas as transacoes na conta e o montante que foi transacionado.
 	3º O Utilizador clica no botão "Voltar para trás" para voltar para a janela principal.
 
+inserir despesa:
+	1º O utilizador na janela principal clica no botão "inserir despesa"
+	2º O sistema abre a janela "Inserir Despesa" (Com os campos disponiveis para crir a despea)
+	3º O utilizador introduz os dados da despesa
+	4º O utilizador clica no botão "OK"
+	5º O sistema adiciona a "despesa/transação" à lista de transações da conta, dá informação ao utilizador e volta à janela principal
+
+remover uma despesa:
+	1º O utilizador clica no botão de remoção de transaçõesna lista (presente na "Janela principal" ou na janela Consultar Transações")
+	2º O sistema remove essa despesa da lista de transaçõesda conta, dá informação ao utilizador e atualiza os dados na janela principal
 
 permitir consultar o saldo disponivel:
 	1º Na janela principal, o Utilizador verifica o seu saldo disponivel.
@@ -14,12 +31,26 @@ permitir consultar transações num periodo de tempo:
 	4º O Sistema mostra apenas as transações cujas datas se encontram entre as datas dadas, inclusive.
 	5º O Utilizador clica no botão "Voltar para trás" para voltar para a janela principal.
 
+permitir ao utilizador pode criar as suas ctegorias:
+	1º Na "Janela Principal" ou na janela "Inserir despesa"(no momento de categorizar se não existir a categoria) o utilizador clica no botão "criar Categoria" 
+	2º O sistema abre a janela criar categoria
+	3º O utilizador introduz o nome e a descrição
+	4º O sistema cria uma nova categoria e adiciona-a ao repositório de categorias
+	5º O sistema volta a janela que originou a janela de criaçãode categoria, tendo já disponível a categoria criada 
+
 filtrar despesas por categoria:
 	1º Na janela principal, o Utilizador clica no botão "Consultar Transações".
 	2º O Sistema mostra a janela "Lista de Transações" na qual o Sistema lista todas as transacoes na conta e o montante que foi transacionado.
 	3º O Utilizador indica uma categoria para filtrar as transações.
 	4º O Sistema mostra apenas as transações cujas categoria é a mesma que a que está no filtro.
 	5º O Utilizador clica no botão "Voltar para trás" para voltar para a janela principal.
+
+o utilizador pode editar uma transação:
+	1º O utilizador seleciona uma transação da lista (clica no boyão editar)
+	2º O sistema abre a janela "Editar Transação" 
+	3º O utilizador modifica os dados 
+	4º O utilizador clica no botão OK
+	5º O sistema Reescreve as propriedades dessa transação
 
 o utilizador pode ver uma transação detalhadamente:
 	1º Na janela principal, o Utilizador clica no botão "Consultar Transações".
