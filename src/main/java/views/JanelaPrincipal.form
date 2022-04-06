@@ -66,12 +66,12 @@
               <text value="Adicionar Saldo"/>
             </properties>
           </component>
-          <component id="adf6e" class="javax.swing.JButton" binding="btnVerDespesas">
+          <component id="adf6e" class="javax.swing.JButton" binding="btnVerTransacoes">
             <constraints>
               <grid row="3" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Consultar Despesas"/>
+              <text value="Consultar Transações"/>
             </properties>
           </component>
           <component id="b589d" class="javax.swing.JButton" binding="btnCreateCategoria">

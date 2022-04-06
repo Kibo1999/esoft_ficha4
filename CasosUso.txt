@@ -10,4 +10,6 @@ A aplicação deve:
 	- filtrar despesas por categoria.
 	- o utilizador pode editar uma transação.
 	- o utilizador pode ver uma transação detalhadamente.
+	- o utiliziador pode adicionar uma fatura a uma despesa.
+	- a fatura contém um número de contribuinte e uma lista de produtos.
 
