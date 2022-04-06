@@ -6,7 +6,7 @@ public class JanelaPrincipal extends JFrame{
     private JLabel lblSaldo;
     private JButton btnAddDespesas;
     private JButton btnAddSaldo;
-    private JButton btnVerDespesas;
+    private JButton btnVerTransacoes;
     private JButton btnCreateCategoria;
     private JList listDespesas;
     private JPanel painelPrincipal;
