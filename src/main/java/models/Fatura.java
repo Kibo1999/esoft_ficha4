@@ -7,8 +7,8 @@ public class Fatura extends Despesa{
     private long contribuinte;
     private LinkedList<Produto> produtos;
 
-    public Fatura(float valor, Categoria categoria, Date data, String descricao, long contribuinte, LinkedList<Produto> produtos) {
-        super(valor, categoria, data, descricao);
+    public Fatura(float valor, Date data, String descricao, Categoria categoria,  long contribuinte, LinkedList<Produto> produtos) {
+        super(valor, data, descricao, categoria);
         this.contribuinte = contribuinte;
         this.produtos = produtos;
     }

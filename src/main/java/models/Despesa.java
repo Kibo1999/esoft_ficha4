@@ -2,25 +2,14 @@ package models;
 
 import java.util.Date;
 
-public class Despesa {
-    private float valor;
+public class Despesa extends Transacao{
+
     private Categoria categoria;
-    private Date data;
-    private String descricao;
 
-    public Despesa(float valor, Categoria categoria, Date data, String descricao) {
-        this.valor = valor;
+
+    public Despesa(float valor, Date data, String descricao, Categoria categoria) {
+        super(valor, data, descricao);
         this.categoria = categoria;
-        this.data = data;
-        this.descricao = descricao;
-    }
-
-    public float getValor() {
-        return valor;
-    }
-
-    public void setValor(float valor) {
-        this.valor = valor;
     }
 
     public Categoria getCategoria() {
@@ -31,15 +20,4 @@ public class Despesa {
         this.categoria = categoria;
     }
 
-    public Date getData() {
-        return data;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
 }

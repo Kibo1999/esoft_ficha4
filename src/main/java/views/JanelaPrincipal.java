@@ -7,7 +7,7 @@ public class JanelaPrincipal extends JFrame{
     private JButton btnAddDespesas;
     private JButton btnAddSaldo;
     private JButton btnVerDespesas;
-    private JButton button4;
+    private JButton btnCreateCategoria;
     private JList listDespesas;
     private JPanel painelPrincipal;
     private JPanel paineDespesas;
@@ -15,6 +15,7 @@ public class JanelaPrincipal extends JFrame{
 
     public JanelaPrincipal(String title){
         super(title);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
         setContentPane(painelPrincipal);
         pack();
     }

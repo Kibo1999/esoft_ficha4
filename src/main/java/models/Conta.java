@@ -5,12 +5,12 @@ import java.util.LinkedList;
 public class Conta {
     private float saldo;
     private String nome;
-    private LinkedList<Despesa> despesas;
+    private LinkedList<Transacao> transacoes;
 
-    public Conta(float saldo, String nome, LinkedList<Despesa> despesas) {
+    public Conta(float saldo, String nome) {
         this.saldo = saldo;
         this.nome = nome;
-        this.despesas = despesas;
+        this.transacoes = new LinkedList<>();
     }
 
     public void adicionar(Despesa despesa){
@@ -19,7 +19,7 @@ public class Conta {
             return;
         }
 
-        despesas.add(despesa);
+        transacoes.add(despesa);
     }
 
     public void alterarSaldo(float valor){
@@ -38,7 +38,7 @@ public class Conta {
         return nome;
     }
 
-    public LinkedList<Despesa> getDespesas() {
-        return despesas;
+    public LinkedList<Transacao> getTransacoes() {
+        return transacoes;
     }
 }
