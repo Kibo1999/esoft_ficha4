@@ -1,0 +1,30 @@
+ver todas as transações:
+	1º Na janela principal, o Utilizador clica no botão "Consultar Transações".
+	2º O Sistema mostra a janela "Lista de Transações" na qual o Sistema lista todas as transacoes na conta e o montante que foi transacionado.
+	3º O Utilizador clica no botão "Voltar para trás" para voltar para a janela principal.
+
+
+permitir consultar o saldo disponivel:
+	1º Na janela principal, o Utilizador verifica o seu saldo disponivel.
+
+permitir consultar transações num periodo de tempo:
+	1º Na janela principal, o Utilizador clica no botão "Consultar Transações".
+	2º O Sistema mostra a janela "Lista de Transações" na qual o Sistema lista todas as transacoes na conta e o montante que foi transacionado.
+	3º O Utilizador indica uma data de inicio e uma data de fim para filtrar as transações.
+	4º O Sistema mostra apenas as transações cujas datas se encontram entre as datas dadas, inclusive.
+	5º O Utilizador clica no botão "Voltar para trás" para voltar para a janela principal.
+
+filtrar despesas por categoria:
+	1º Na janela principal, o Utilizador clica no botão "Consultar Transações".
+	2º O Sistema mostra a janela "Lista de Transações" na qual o Sistema lista todas as transacoes na conta e o montante que foi transacionado.
+	3º O Utilizador indica uma categoria para filtrar as transações.
+	4º O Sistema mostra apenas as transações cujas categoria é a mesma que a que está no filtro.
+	5º O Utilizador clica no botão "Voltar para trás" para voltar para a janela principal.
+
+o utilizador pode ver uma transação detalhadamente:
+	1º Na janela principal, o Utilizador clica no botão "Consultar Transações".
+	2º O Sistema mostra a janela "Lista de Transações" na qual o Sistema lista todas as transacoes na conta e o montante que foi transacionado.
+	3º O Utilizador carrega no botão "Ver detalhes" localizado perto da despesa sobre a qual o Utilizador quer ver os detalhes.
+	4º O Sistema mostra, atravéz da janela "Transação", todos os detalhes da transação.
+	5º O Utilizador carrega no botão "Fechar" para sair da janela "Transação" e voltar à lista de transações.
+	6º O Utilizador clica no botão "Voltar para trás" para voltar para a janela principal.
