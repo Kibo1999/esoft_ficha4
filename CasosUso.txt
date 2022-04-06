@@ -1,0 +1,12 @@
+A aplicação deve:
+
+	- permitir inserir dinheiro na conta.
+	- ver todas as faturas de uma conta.
+	- inserir despesa.
+	- remover uma despesa.
+	- permitir consultar o saldo disponivel.
+	- permitir consultar gastos num periodo de tempo (1 dia, 1 semana, 1 mês, 1 ano).
+	- permitir ao utilizador criar as suas proprias categorias.
+	- filtrar despesas por categoria.
+	- o utilizador deve poder colocar uma descrição na despesa.
+  
