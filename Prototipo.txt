@@ -1,0 +1,35 @@
+Janela Principal:
+    JButton "Adicionar Transação" abre a janela "Inserir Despesa"
+    JButton "Adicionar Saldo" abre a janela "Adicionar Saldo"
+    JButton "Consultar Transações" abre a janela "Lista de Transações" 
+    JButton "Criar Categoria" abre a janela "Criar Categoria"
+    JLabel "Saldo" mostar o saldo  
+    JList "Lista de Transações" mostra as ultimas 5 transações 
+
+Inserir Despesa:
+    JComboBox "Categorias" escolher a categoria da Despesa
+    JTextArea "descrição" escrever a descrição da Despesa
+    JTextField "valor" inserir do valor da Transação
+    JFormattedTextField "data" inserir a data
+    JCheckBox "isFatura" permite identificar se tem fatura
+    se a checkBox está ativa:
+        JTextField "contribuinte" insere nº contribuinte
+        JTextField "nomeProduto" insere nome do nomeProduto
+        JTextField "preço produto" inserir o preço do produto
+        JButton "adicionar produto" adiciona o produto à lista da fatura
+    JButton "OK" insere despesa na lista de transações
+    JButton "Cancelar" cancela a operação
+
+Adicionar Saldo:
+    JTextField "Saldo a adicionar" introduz a quantia a adicionar
+    JLabel "Saldo atual" mostra o saldo atual
+    JButton "OK" adiciona o valor ao saldo e fecha a janela
+
+Lista de Transações:
+    JList "Transações" contém todas as transações
+    Para cada transação:
+        JButton "Apagar" apaga a transação
+        JButton ""
+
+
+
