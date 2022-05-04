@@ -2,7 +2,7 @@ permitir inserir dinheiro na conta:
 	1º O utilizador na janela principal deve clicar no botão "adicionar saldo".
 	2º O sistema abre a janela "Adicionar Saldo"
 	3º O utilizador introduz o valor
-	4º O utilizador clica em "OK"
+	4º O utilizador clica em "Add"
 	5º O sistema faz a adição do valor.
 
 ver todas as transações:
